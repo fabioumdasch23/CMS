@@ -1,0 +1,26 @@
+base: 'http://cms24.s2310456026.student.kwmhgb.at/'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    locale: de_DE
+    navigationTitle: DE
+    flag: at
+    hreflang: ''
+    websiteTitle: ''
+  -
+    title: English
+    enabled: true
+    locale: en_US
+    hreflang: ''
+    base: /en/
+    websiteTitle: ''
+    navigationTitle: EN
+    fallbackType: strict
+    fallbacks: ''
+    flag: gb
+    languageId: 1
+rootPageId: 1
+websiteTitle: 'SPG Pregarten'
