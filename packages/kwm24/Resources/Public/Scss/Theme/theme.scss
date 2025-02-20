@@ -1,0 +1,107 @@
+//
+// Variables
+//
+@import "variables";
+
+//
+// Import needed Bootstrap Package Files
+//
+@import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/theme";
+
+@import "card";
+
+@import "header";
+
+@import "footer";
+
+@import "buttons";
+
+@import "km";
+
+@import "km2";
+
+@import "logout";
+
+@import "verein";
+
+@import "login";
+
+@import "danke";
+
+@import "news";
+
+@import "modal";
+
+@import "contact";
+
+@import "timeline";
+
+*{
+  font-family: "Open Sans", sans-serif;
+}
+#page-header {
+  background-color: white !important;
+  text-align: center;
+  display: flex;
+}
+
+.breadcrumb-section {
+  display: none;
+}
+
+// Schriftarten und allgemeine Styles
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color-black);
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color-white);
+}
+
+// Überschriften und Textstile
+h1, h2, h3, h4 {
+  font-weight: bold;
+  color: var(--primary-color-black);
+}
+
+// Absatztexte
+p {
+  font-size: 16px;
+  color: var(--primary-color-black);
+}
+
+.textpic-item.textpic-text {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+
+.carousel-item-layout-secondary {
+  --carousel-item-background: white;
+  --carousel-item-color: black;
+}
+
+#c591 .swiper-slide img{
+  width: 500px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

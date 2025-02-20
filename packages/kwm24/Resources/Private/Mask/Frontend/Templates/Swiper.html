@@ -1,0 +1,31 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:bk2k="http://typo3.org/ns/BK2K/BootstrapPackage/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+<f:if condition="{data.tx_mask_slides}">
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <f:for each="{data.tx_mask_slides}" as="data_item">
+            <div class="swiper-slide">
+                <f:if condition="{data_item.tx_mask_header}">
+                    {data_item.tx_mask_header}
+                </f:if>
+                <f:for each="{data_item.tx_mask_img}" as="file">
+                    <f:media file="{file}" width="200" />
+                    {file.description}
+                </f:for>
+            </div>
+        </f:for>
+    </div>
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="swiper-scrollbar"></div>
+</div>
+</f:if>
+</f:section>
+
+
+
+

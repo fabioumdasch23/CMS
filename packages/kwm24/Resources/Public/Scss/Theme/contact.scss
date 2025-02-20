@@ -1,0 +1,38 @@
+#testContact-58 {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#testContact-58 .form-actions {
+  display: flex;
+  align-items: center;
+}
+
+#contact-58 {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#contact-58 .form-actions {
+  display: flex;
+  align-items: center;
+}
+
+//Checkbox Farbe
+.form-check-input:checked {
+  background-color: #546c3d;
+  border-color: #546c3d;
+}
+
+//Häkchen weiß
+.form-check-input:checked::after {
+  border-color: white;
+  background-color: white;
+}
+
+#kontakt1-58 {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,98 @@
+img[src="/fileadmin/_processed_/1/d/csm_TeamImage_13109_b49de679a6.jpg"] {
+  border-radius: 8px !important;
+}
+
+.frame {
+  margin-bottom: 10px;
+}
+
+#c99, #c101, #c103, #c106, #c108, #c110, #c112 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #acc4af;
+  padding: 8px;
+  border-radius: 4px;
+  width: fit-content;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+#c100, #c102, #c104, #c105, #c107, #c109, #c111, #c113 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7px;
+  border-radius: 4px;
+  width: fit-content;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#c99:hover, #c101:hover, #c103:hover, #c106:hover, #c108:hover, #c110:hover, #c112:hover {
+  background-color: #98b698;
+  transform: scale(1.05) !important;
+}
+
+#c100:hover, #c102:hover, #c104:hover, #c105:hover, #c107:hover, #c109:hover, #c111:hover, #c113:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05) !important;
+}
+
+#c120, #c125, #c127, #c129, #c131, #c138, #c135, #c140, #c142,
+#c144, #c146, #c148, #c150, #c153, #c155, #c158, #c162, #c353 {
+  width: 400px !important;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto !important;
+  margin-left: 50px !important;
+  transition: transform 0.2s ease;
+}
+
+#c120 img, #c125 img, #c127 img, #c129 img, #c131 img, #c138 img,
+#c135 img, #c140 img, #c142 img, #c144 img, #c146 img, #c148 img,
+#c150 img, #c153 img, #c155 img, #c158 img, #c162 img, #c353 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px !important;
+}
+
+#c120:hover, #c125:hover, #c127:hover, #c129:hover, #c131:hover,
+#c138:hover, #c135:hover, #c140:hover, #c142:hover, #c144:hover,
+#c146:hover, #c148:hover, #c150:hover, #c153:hover, #c155:hover,
+#c158:hover, #c162:hover, #c353:hover {
+  transform: scale(1.03) translateY(-3px);
+}
+
+@media (max-width: 1200px) {
+  #c120, #c125, #c127, #c129, #c131, #c138, #c135, #c140, #c142,
+  #c144, #c146, #c148, #c150, #c153, #c155, #c158, #c162, #c353 {
+    width: 45%;
+    min-width: 300px;
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #c120, #c125, #c127, #c129, #c131, #c138, #c135, #c140, #c142,
+  #c144, #c146, #c148, #c150, #c153, #c155, #c158, #c162, #c353 {
+    width: 90%;
+    min-width: 300px;
+    margin-left: 15px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #c120, #c125, #c127, #c129, #c131, #c138, #c135, #c140, #c142,
+  #c144, #c146, #c148, #c150, #c153, #c155, #c158, #c162, #c353 {
+    width: 100%;
+    min-width: 300px;
+    margin-left: 5px !important;
+  }
+
+  img {
+    border-radius: 6px;
+  }
+}

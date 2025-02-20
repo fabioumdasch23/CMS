@@ -1,0 +1,49 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSS {
+        swiper = EXT:kwm24/Resources/Public/Css/swiper-bundle.min.css
+        theme = EXT:kwm24/Resources/Public/Scss/Theme/theme.scss
+
+    }
+
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        swiper = EXT:kwm24/Resources/Public/JavaScript/Dist/swiper-bundle.min.js
+        kwm24_scripts = EXT:kwm24/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}
+
+lib.maskContentElement {
+    templateRootPaths {
+        5 = EXT:bootstrap_package/Resources/Private/Templates/ContentElements
+    }
+    partialRootPaths {
+        5 = EXT:bootstrap_package/Resources/Private/Partials/ContentElements
+    }
+    layoutRootPaths {
+        5 = EXT:bootstrap_package/Resources/Private/Layouts/ContentElements
+    }
+}
+
+# Schriftart einbinden
+page.includeCSS.googleFonts = https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap

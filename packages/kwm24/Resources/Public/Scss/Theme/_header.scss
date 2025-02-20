@@ -1,0 +1,23 @@
+// Standard-Styling für Navbar-Links
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+// Hover-Zustand
+.navbar-nav .nav-link:hover {
+  padding: 11px 16px;
+  background-color: var(--accent-green);
+  color: var(--primary-color-white);
+  border-radius: 2px;
+}
+
+// Aktive Seite
+.navbar-nav .nav-link.active {
+  background-color: var(--button-green);
+  color: var(--primary-color-white);
+  border-radius: 2px;
+}

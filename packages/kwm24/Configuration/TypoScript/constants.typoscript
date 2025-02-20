@@ -1,0 +1,68 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:kwm24/Resources/Public/Images/logo.svg
+        fileInverted = EXT:kwm24/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = kwm24
+        linktitle = kwm24
+    }
+    favicon {
+        file = EXT:kwm24/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:kwm24/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:kwm24/Resources/Private/Partials/Page/
+        templateRootPath = EXT:kwm24/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:kwm24/Resources/Private/Layouts/
+        partialRootPath = EXT:kwm24/Resources/Private/Partials/
+        templateRootPath = EXT:kwm24/Resources/Private/Templates/
+    }
+}
+
+    plugin.tx_news.view.twb5.templateRootPath = EXT:kwm24/Resources/Private/Templates/News
+    plugin.tx_news.view.twb5.partialRootPath = EXT:kwm24/Resources/Private/Partials/News
+    plugin.tx_news.view.twb5.layoutRootPath = EXT:kwm24/Resources/Private/Layouts/News
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:kwm24/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:kwm24/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:kwm24/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}
+
+plugin.tx_felogin_login.view.templateRootPath = EXT:kwm24/Resources/Private/Templates/LoginExt/
+plugin.tx_felogin_login.view.partialRootPath = EXT:kwm24/Resources/Private/Partials/LoginExt/
+plugin.tx_felogin_login.view.layoutRootPath = EXT:kwm24/Resources/Private/Layouts//LoginExt/

@@ -1,0 +1,24 @@
+.timeline-item-image img {
+  width: 180px;
+}
+
+.timeline-item-inner {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.timeline-item-marker {
+
+  span {
+    width: 15px;
+    height: 15px;
+    background-color: #546c3d;
+    border: 3px solid white;
+  }
+}

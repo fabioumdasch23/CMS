@@ -1,0 +1,24 @@
+#c565 {
+  border: 2px solid black;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  #c565 {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  #c565 {
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 10px;
+  }
+}

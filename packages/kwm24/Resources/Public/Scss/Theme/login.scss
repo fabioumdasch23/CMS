@@ -1,0 +1,92 @@
+#c569,
+#c285 {
+  border: none;
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#c569 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+#c569 img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#c285:has(input[name="user"]) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+#c285 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+#c285 form {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 5px !important;
+  padding-top: 0 !important;
+}
+
+#c285 form input[type="submit"]:hover {
+  background: #acc4af;
+}
+
+@media (max-width: 800px) {
+  #c569,
+  #c285 {
+    max-width: 90%;
+  }
+
+  #c569,
+  #c285 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  #c569,
+  #c285 {
+    max-width: 95%;
+  }
+
+  #c569,
+  #c285 {
+    padding: 10px;
+    border-width: 1px;
+  }
+}

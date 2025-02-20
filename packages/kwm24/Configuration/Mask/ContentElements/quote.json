@@ -1,0 +1,59 @@
+{
+    "version": "8.1.0",
+    "restructuringDone": false,
+    "tables": {
+        "tt_content": {
+            "elements": {
+                "quote": {
+                    "color": "#000000",
+                    "colorOverlay": "#000000",
+                    "columns": [
+                        "header",
+                        "bodytext"
+                    ],
+                    "columnsOverride": {
+                        "bodytext": {
+                            "config": {
+                                "enableRichtext": 1
+                            },
+                            "fullKey": "bodytext",
+                            "key": "bodytext",
+                            "type": "richtext"
+                        }
+                    },
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "quote",
+                    "label": "Zitat",
+                    "labels": [
+                        "Name",
+                        ""
+                    ],
+                    "shortLabel": "",
+                    "sorting": 0
+                }
+            },
+            "tca": {
+                "bodytext": {
+                    "bodytextTypeByElement": {
+                        "quote": "richtext"
+                    },
+                    "coreField": 1,
+                    "fullKey": "bodytext",
+                    "key": "bodytext"
+                },
+                "header": {
+                    "coreField": 1,
+                    "fullKey": "header",
+                    "key": "header",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

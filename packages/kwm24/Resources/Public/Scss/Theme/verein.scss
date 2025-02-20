@@ -1,0 +1,48 @@
+#c81, #c83, #c84, #c85, #c86, #c87{
+  width: 400px !important;
+  height: auto !important;
+  margin-left: 50px !important;
+  transition: transform 0.3s ease;
+
+  img {
+    border-radius: 8px !important;
+  }
+
+  &:hover {
+    transform: scale(1.05) translateY(-5px);
+  }
+}
+
+//Logo Askö Stadion
+img[src="/fileadmin/_processed_/5/1/csm_ask%C3%B6_3055628772.jpg"]
+{
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin-right: 0;
+}
+
+//Logo Union Stadion
+img[src="/fileadmin/_processed_/3/7/csm_union_54f6998376.jpg"]
+{
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#c650 {
+  margin-bottom: 5px !important;
+  padding-bottom: 5px  !important;
+}
+
+#c651 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0  !important;
+}
+
+#c63 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0  !important;
+}
